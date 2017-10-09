@@ -1,5 +1,5 @@
 __author__ = "vramazing"
-from src.common.database import  Database
+from common.database import  Database
 import uuid #universally unique id
 import datetime
 

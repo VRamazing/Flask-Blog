@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3">Welcome to Flask Blog</h1>
+    <button type="button" href="{{ url_for('login_template') }}" class="btn btn-primary">Login</button>
+    <button type="button" href="{{ url_for('register_template') }}" class="btn btn-secondary">Register</button>
+  </div>
+</div>
+{% endblock %}

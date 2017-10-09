@@ -1,0 +1,15 @@
+#login-form{
+	margin-top: 25px;
+	width:70%;
+}
+
+div.jumbotron.jumbotron-fluid{
+	height: 100vh;
+	width:100%;
+	display:table;
+}
+
+
+div.jumbotron.jumbotron-fluid .container {
+   display:table-cell;vertical-align:middle;
+text-align: center;}
